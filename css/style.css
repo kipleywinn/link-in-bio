@@ -89,11 +89,19 @@ body {
   font-family: Calibri, sans-serif;
 }
 
+/*div#grid-box {*/
+/*  display: grid;*/
+/*  gap: unset;*/
+/*  grid-template-columns: 3fr 2fr 2fr;*/
+/*  grid-template-rows: repeat(3, 1fr);*/
+/*  height: 97vh;*/
+/*  overflow: hidden;*/
+/*}*/
+
 div#grid-box {
   display: grid;
   gap: unset;
-  grid-template-columns: 3fr 2fr 2fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
   height: 97vh;
   overflow: hidden;
 }
@@ -116,7 +124,7 @@ div#main-box {
   font-weight: bold;
   font-family: "Bevan", Verdana, sans-serif;
   text-align: center;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 0 10px;
   box-sizing: border-box;
   color: #2d2d2d;
 }
@@ -127,6 +135,14 @@ div#main-box img#headshot {
   max-height: 80%;
   width: auto;
   object-fit: contain;
+}
+
+div#all-links-box {
+  display: grid;
+  gap: unset;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  height: 97vh;
 }
 
 div.link-box {

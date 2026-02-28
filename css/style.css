@@ -101,7 +101,7 @@ body {
 div#grid-box {
   display: grid;
   gap: unset;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
   height: 97vh;
   overflow: hidden;
 }
@@ -265,6 +265,10 @@ a.link-box::after {
   .link-box {
     /*font-size: 1.5rem;*/
     min-height: 8rem;
+  }
+
+  img#headshot {
+    margin-bottom: -1px;
   }
 
   #all-links-box > :nth-child(2) { order: 2; }
